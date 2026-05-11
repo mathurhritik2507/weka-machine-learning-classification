@@ -1,0 +1,25 @@
+Naive Bayes on Play Tennis Dataset - Output Notes
+
+Dataset: play_tennis.arff
+Classifier: bayes -> NaiveBayes
+Purpose: Predict whether PlayTennis is Yes or No using Outlook and Wind attributes.
+
+WEKA workflow:
+1. Open WEKA Explorer.
+2. Load play_tennis.arff in the Preprocess tab.
+3. Review attributes: Outlook, Wind, and PlayTennis.
+4. Go to Classify tab.
+5. Choose bayes -> NaiveBayes.
+6. Select percentage split or test set based on assignment requirement.
+7. Run classifier and record:
+   - Correctly classified instances
+   - Incorrectly classified instances
+   - MAE
+   - Confusion matrix
+   - Error visualization
+
+Interpretation guide:
+- The confusion matrix shows how many Yes and No instances were predicted correctly or incorrectly.
+- Correct predictions appear on the diagonal.
+- Incorrect predictions appear outside the diagonal.
+- Error visualization helps identify which instances were misclassified.

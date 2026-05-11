@@ -1,0 +1,32 @@
+@relation play_tennis
+
+@attribute Outlook {Sunny,Overcast,Rain}
+@attribute Wind {Weak,Strong}
+@attribute PlayTennis {Yes,No}
+
+@data
+Sunny,Weak,No
+Sunny,Strong,No
+Overcast,Weak,Yes
+Rain,Weak,Yes
+Rain,Strong,No
+Overcast,Strong,Yes
+Sunny,Weak,Yes
+Sunny,Strong,No
+Rain,Weak,Yes
+Sunny,Weak,Yes
+Overcast,Weak,Yes
+Overcast,Strong,Yes
+Rain,Strong,No
+Rain,Weak,Yes
+Sunny,Strong,No
+Overcast,Weak,Yes
+Rain,Weak,Yes
+Sunny,Weak,No
+Overcast,Strong,Yes
+Rain,Strong,No
+Sunny,Weak,Yes
+Rain,Weak,Yes
+Overcast,Weak,Yes
+Sunny,Strong,No
+Rain,Weak,Yes

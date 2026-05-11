@@ -1,0 +1,23 @@
+SMO on Iris Dataset - 10-fold Cross-validation
+
+Dataset: iris.arff
+Classifier: functions -> SMO
+Test option: Cross-validation = 10 folds
+
+Summary:
+Correctly Classified Instances: 144 / 150
+Accuracy: 96%
+Incorrectly Classified Instances: 6 / 150
+Error Rate: 4%
+Kappa statistic: 0.94
+Mean absolute error: 0.2311
+Root mean squared error: 0.288
+
+Confusion Matrix:
+Actual \ Predicted      setosa   versicolor   virginica
+setosa                    50          0           0
+versicolor                 0         49           1
+virginica                  0          5          45
+
+Interpretation:
+All setosa instances were classified correctly. One versicolor instance was predicted as virginica, and five virginica instances were predicted as versicolor. Cross-validation provides a more reliable estimate because it evaluates the model across multiple folds.

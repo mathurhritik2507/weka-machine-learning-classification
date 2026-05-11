@@ -1,0 +1,23 @@
+SMO on Iris Dataset - 66% Percentage Split
+
+Dataset: iris.arff
+Classifier: functions -> SMO
+Test option: Percentage split = 66%
+
+Summary:
+Correctly Classified Instances: 49 / 51
+Accuracy: 96.0784%
+Incorrectly Classified Instances: 2 / 51
+Error Rate: 3.9216%
+Kappa statistic: 0.9408
+Mean absolute error: 0.2309
+Root mean squared error: 0.2877
+
+Confusion Matrix:
+Actual \ Predicted      setosa   versicolor   virginica
+setosa                    15          0           0
+versicolor                 0         19           0
+virginica                  0          2          15
+
+Interpretation:
+All setosa and versicolor test instances were classified correctly. Two virginica instances were misclassified as versicolor. This indicates that the main class overlap occurred between versicolor and virginica.
